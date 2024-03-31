@@ -1,6 +1,9 @@
 class Info{
     int id;
     String name;
+    void show(){
+        
+    }
 }
 
 class CSD extends Info{

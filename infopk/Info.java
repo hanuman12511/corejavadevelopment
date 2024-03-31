@@ -1,5 +1,7 @@
 package infopk;
-public class Info{
+
+
+public class Info implements UserInfo{
     private String email;
     private String password;
 
@@ -11,10 +13,14 @@ public class Info{
         this.password =password;
     }
 
-    String getEmail(){
+   public  String getEmail(){
         return email;
     } 
-    String getPassword(){
+    public String getPassword(){
         return password;
+    }
+
+    public void setInfo(){
+
     }
 }
